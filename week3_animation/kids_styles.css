@@ -19,9 +19,11 @@ body{
 
     position: relative;
 
-    animation: SunBounce 3s infinite,
+    /* animation: SunBounce 3s infinite,
     ChangeColourOfSun 3s infinite ,
-    MyFirstAnimation 3s infinite;/* ease-in-out infinite;*/
+    MyFirstAnimation 3s infinite;ease-in-out infinite; */
+    
+    animation:SunBounce 3s infinite;
 
 }
 
@@ -72,6 +74,25 @@ body{
     60%{
         transform: translateY(-20px);
     }
+    0%{
+        background-color: cornsilk;
 
+    }
+    25%{
+        background-color: bisque;
+
+    }
+    50%{
+        background-color: gold;
+
+    }
+    75%{
+        background-color: goldenrod;
+
+    }
+    100%{
+        background-color: orange;
+
+    }
     
 }
