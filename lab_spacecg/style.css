@@ -33,6 +33,7 @@ body {
     margin: 10px;
     opacity: 0.2;
     transition: opacity 0.5s;
+    margin-top: 150px;
 }
 
 .space-object.unlocked {
@@ -43,6 +44,6 @@ body {
 }
 
 .space-object.clicked {
-    transform: scale(2); 
+    transform: scale(4); 
     transition: transform 0.3s;
 }
